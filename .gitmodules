@@ -1,0 +1,4 @@
+[submodule "commevents"]
+	path = commevents
+	url = git@github.com:benubach/aqua.git
+	branch = master
