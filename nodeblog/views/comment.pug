@@ -1,0 +1,10 @@
+.comment
+    p.comment-date Posted by 
+        span.comment-name #{comment.name}
+        |  on #{moment(comment.date).format('DD/MM/YYYY')}
+
+    p.comment-body !{comment.body}
+
+
+br
+hr

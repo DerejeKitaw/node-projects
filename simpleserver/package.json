@@ -1,0 +1,19 @@
+{
+  "name": "simpleserver",
+  "version": "1.0.0",
+  "description": "Simple Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/benubach/node-projects.git"
+  },
+  "author": "Benjamín Ubach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benubach/node-projects/issues"
+  },
+  "homepage": "https://github.com/benubach/node-projects#readme"
+}

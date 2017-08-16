@@ -1,0 +1,700 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"borco",
+				"border-color"
+			],
+			[
+				"bgcr",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"getUserBy",
+				"getUserByUsername\t(users.js)"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"profile",
+				"profile_image"
+			],
+			[
+				"val",
+				"validationResult"
+			],
+			[
+				"bod",
+				"bodyParser"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "nodeblog/routes/categories.js",
+			"settings":
+			{
+				"buffer_size": 996,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "nodeblog/views/addcategory.pug",
+			"settings":
+			{
+				"buffer_size": 387,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "nodeblog/views/layout.pug",
+			"settings":
+			{
+				"buffer_size": 499,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "nodeblog/views/index.pug",
+			"settings":
+			{
+				"buffer_size": 927,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "nodeblog/public/stylesheets/style.css",
+			"settings":
+			{
+				"buffer_size": 1987,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nCSS3\n----\n\n  Thank you for installing CSS3!\n  \n  This plugin requires Sublime Text 3 build 3103 or greater.\n  \n  You must disable the default CSS package. It will interfere with CSS3.\n  \n      Mac:       cmd+shift+p  -> Package Control: Disable Package -> CSS\n      Linux/Win: ctrl+shift+p -> Package Control: Disable Package -> CSS\n  \n  I also strongly recommend adding these two settings to your User Settings (the\n  general settings, not the package settings). By default, Sublime will not offer\n  completions inside other completions. In other words, the completions menu is\n  suppressed when you're tabbing through a snippet. This blocks most of the CSS3\n  completions from appearing. To fix this, set these keys to true:\n  \n      \"auto_complete_commit_on_tab\": true,\n      \"auto_complete_with_fields\": true,\n  \n  If you have Emmet installed, its completions will drown out the carefully\n  researched, standards-based completions offered by this package. You can hide\n  Emmet completions without disabling them by adding this line to your Emmet\n  package settings.\n  \n      \"show_css_completions\": false // strongly recommended\n  \n  That's it. Enjoy the plugin. If you have any problems, please open an issue on\n  GitHub. Thanks!\n  \n      https://github.com/y0ssar1an/CSS3/issues\n",
+			"settings":
+			{
+				"buffer_size": 1336,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "nodeblog/routes/posts.js",
+			"settings":
+			{
+				"buffer_size": 2742,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "nodeblog/views/addpost.pug",
+			"settings":
+			{
+				"buffer_size": 1142,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "nodeblog/app.js",
+			"settings":
+			{
+				"buffer_size": 2654,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "rein",
+		"selected_items":
+		[
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"tern",
+				"tern_for_sublime: Enable Project"
+			],
+			[
+				"Snippet: ",
+				"Snippet: require"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/benja/node/node-projects",
+		"/Users/benja/node/node-projects/nodeblog",
+		"/Users/benja/node/node-projects/nodeblog/bin",
+		"/Users/benja/node/node-projects/nodeblog/public",
+		"/Users/benja/node/node-projects/nodeblog/public/stylesheets",
+		"/Users/benja/node/node-projects/nodeblog/public/uploads",
+		"/Users/benja/node/node-projects/nodeblog/routes",
+		"/Users/benja/node/node-projects/nodeblog/views"
+	],
+	"file_history":
+	[
+		"/Users/benja/node/node-projects/nodeauth/package.json",
+		"/Users/benja/node/node-projects/nodeauth/app.js",
+		"/Users/benja/node/node-projects/nodeauth/views/layout.jade",
+		"/Users/benja/node/node-projects/nodeauth/routes/users.js",
+		"/Users/benja/node/node-projects/node-projects.sublime-project",
+		"/Users/benja/node/node-projects/nodeauth/routes/index.js",
+		"/Users/benja/node/node-projects/nodeauth/views/register.jade",
+		"/Users/benja/node/node-projects/nodeauth/models/user.js",
+		"/Users/benja/node/node-projects/nodeauth/views/login.jade",
+		"/Users/benja/node/node-projects/nodeauth/views/index.jade",
+		"/Users/benja/node/node-projects/nodeauth/views/error.jade",
+		"/Users/benja/node/node-projects/nodeauth/public/stylesheets/style.css",
+		"/Users/benja/Library/Application Support/Sublime Text 3/Packages/tern_for_sublime/Default.sublime-keymap",
+		"/Users/benja/node/restApiTutorial/models/book.js",
+		"/Users/benja/node/restApiTutorial/models/genre.js",
+		"/Users/benja/node/restApiTutorial/client/css/style.css",
+		"/Users/benja/node/restApiTutorial/client/views/edit_book.html",
+		"/Users/benja/node/restApiTutorial/client/controllers/genres.js",
+		"/Users/benja/node/restApiTutorial/client/index.html",
+		"/Users/benja/node/node-projects/express_website/views/layout.jade",
+		"/Users/benja/node/node-projects/express_website/views/about.jade",
+		"/Users/benja/node/node-projects/express_website/views/index.jade",
+		"/Users/benja/node/node-projects/express_website/views/contact.jade",
+		"/Users/benja/node/node-projects/express_website/views/error.jade",
+		"/Users/benja/node/node-projects/express_website/app.js",
+		"/Users/benja/node/restApiTutorial/app.js",
+		"/Users/benja/node/restApiTutorial/client/app.js",
+		"/Users/benja/node/restApiTutorial/client/controllers/books.js",
+		"/Users/benja/node/restApiTutorial/client/views/books.html",
+		"/Users/benja/Library/Application Support/Sublime Text 3/Packages/User/Tern.sublime-settings",
+		"/Users/benja/Library/Application Support/Sublime Text 3/Packages/tern_for_sublime/Tern.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"*",
+			"client/*"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"(\\S){",
+			"{\n",
+			"container",
+			"posts",
+			"mongodb",
+			"profileImage",
+			"checkBody",
+			"bootstrap.css.map",
+			"register",
+			"name",
+			"Name",
+			"name",
+			"login",
+			"')\n",
+			"expressValidator",
+			"multer",
+			"passport",
+			"req",
+			"='/')",
+			"=>",
+			"\"",
+			"app",
+			"jquery",
+			"Genre",
+			"genre",
+			"Genre",
+			"genre",
+			"genres",
+			"genre",
+			"Genre",
+			"genre",
+			"Genre",
+			"genre",
+			"Genre",
+			"bodyReader",
+			"book",
+			"id",
+			"Genre",
+			"tle: {\n\t\ttype: String,\n\t\trequired: true\n\t},",
+			"Genre",
+			"genre"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\1 {"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "nodeblog/routes/categories.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 996,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								559,
+								559
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "nodeblog/views/addcategory.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								297,
+								297
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "nodeblog/views/layout.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								418,
+								418
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "nodeblog/views/index.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 927,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								624,
+								624
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "nodeblog/public/stylesheets/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1987,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1474,
+								1474
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/CSS3/CSS3.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1676.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								550,
+								630
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"default_dir": "/Users/benja/node/node-projects",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "nodeblog/routes/posts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1945,
+								1945
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 56.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "nodeblog/views/addpost.pug",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "nodeblog/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								998,
+								998
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 112.0
+	},
+	"output.tern_arghint":
+	{
+		"height": 27.0
+	},
+	"pinned_build_system": "",
+	"project": "node-projects.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 131.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

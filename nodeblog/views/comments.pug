@@ -1,0 +1,24 @@
+h3 Comments
+if(post.comments && post.comments.length > 0)
+    for comment in post.comments
+        include comment
+h3 Add Comment
+if(errors)
+    ul.errors
+        each error in errors
+            li.alert.alert-danger #{error.msg}
+form.comment-form(method='POST', action=`/posts/${post._id}/comment/`)
+    .form-group
+        label Name:
+        input.form-control(name='name', type='text')
+    .form-group
+        label Email:
+        input.form-control(name='email', type='email')
+    .form-group
+        label Comment:
+        textarea.form-control(name='body', id='body')
+    input(name='_id', type='hidden', value=`${post._id}`)
+    input.btn.btn-default(name='submit', type='submit', value='Comment')
+    script(src='/ckeditor/ckeditor.js')
+    script
+        | CKEDITOR.replace("body");
