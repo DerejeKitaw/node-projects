@@ -2,3 +2,7 @@
 	path = commevents
 	url = git@github.com:benubach/aqua.git
 	branch = master
+[submodule "commevents-drywall"]
+	path = commevents-drywall
+	url = git@github.com:benubach/drywall.git
+	branch = master
