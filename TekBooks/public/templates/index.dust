@@ -1,0 +1,28 @@
+{>"layouts/master" /}
+
+{<body}
+	<div class="large-3 columns">
+		<img class='thumbnail' src="/img/mongo1.png" alt="">
+		<h4>Professional Mongo DB</h4>
+		<p>Eu amet mollit in anim consectetur do cillum cupidatat sed aliqua.</p>
+		<div class="price">Buy for <span>$19.99</span></div>
+		<br>
+		<a href="/books/details/1" class='button small'>Book details</a>
+	</div>
+	<div class="large-3 columns">
+		<img class='thumbnail' src="/img/hadoop1.jpg" alt="">
+		<h4>Something about hadoop</h4>
+		<p>Lorem ipsum officia id qui sunt eiusmod velit eiusmod aliquip magna sint fugiat deserunt commodo consequat dolore nostrud./p>
+		<div class="price">Buy for <span>$29.99</span></div>
+		<br>
+		<a href="/books/details/1" class='button small'>Book details</a>
+	</div>
+	<div class="large-3 columns">
+		<img class='thumbnail' src="/img/cassandra1.png" alt="">
+		<h4>Cassandra Whatever</h4>
+		<p>Lorem ipsum in sed.</p>
+		<div class="price">Buy for <span>$25.99</span></div>
+		<br>
+		<a href="/books/details/1" class='button small'>Book details</a>
+	</div>
+{/body}
