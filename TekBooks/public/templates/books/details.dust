@@ -1,0 +1,19 @@
+{>"layouts/master" /}
+
+{<body}
+    <div class="large-4 columns book">
+        <img src="/img/mongo1.png"/>
+    </div>
+    <div class="large-8 columns book">
+        <h2>Some Mongo book</h2>
+        <ul class="bookInfo">
+            <li>Category: Mongo</li>
+            <li>Author: Some Dude</li>
+            <li>Publisher: Some publisher</li>
+        </ul>
+        <br>
+        <div class="price"><span>$29.99</span></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur cum dolor eum fuga id ipsam laboriosam, maxime minus nulla possimus praesentium sint voluptas. Inventore laudantium nesciunt quaerat reprehenderit sequi.</p>
+    </div>
+
+{/body}
