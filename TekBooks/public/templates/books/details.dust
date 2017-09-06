@@ -2,18 +2,18 @@
 
 {<body}
     <div class="large-4 columns book">
-        <img src="/img/mongo1.png"/>
+        <img src="/img/{book.cover}"/>
     </div>
     <div class="large-8 columns book">
-        <h2>Some Mongo book</h2>
+        <h2>{book.title}</h2>
         <ul class="bookInfo">
-            <li>Category: Mongo</li>
-            <li>Author: Some Dude</li>
-            <li>Publisher: Some publisher</li>
+            <li>Category: {book.category}</li>
+            <li>Author: {book.author}</li>
+            <li>Publisher: {book.publisher}</li>
         </ul>
         <br>
-        <div class="price"><span>$29.99</span></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur cum dolor eum fuga id ipsam laboriosam, maxime minus nulla possimus praesentium sint voluptas. Inventore laudantium nesciunt quaerat reprehenderit sequi.</p>
+        <div class="price"><span>${book.price}</span></div>
+        <p>{book.description}</p>
     </div>
 
 {/body}
